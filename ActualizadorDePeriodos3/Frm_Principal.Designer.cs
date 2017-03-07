@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal));
             this.btnGuardar = new System.Windows.Forms.Button();
             this.nudPuerto = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
@@ -41,6 +43,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pnltitulo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.niActualizador = new System.Windows.Forms.NotifyIcon(this.components);
+            this.timerEjecutar = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.nudPuerto)).BeginInit();
             this.pnltitulo.SuspendLayout();
             this.SuspendLayout();
@@ -48,12 +52,13 @@
             // btnGuardar
             // 
             this.btnGuardar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnGuardar.Location = new System.Drawing.Point(202, 229);
+            this.btnGuardar.Location = new System.Drawing.Point(172, 229);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(100, 30);
+            this.btnGuardar.Size = new System.Drawing.Size(160, 30);
             this.btnGuardar.TabIndex = 24;
-            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Text = "Guardar y Ejecutar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // nudPuerto
             // 
@@ -155,11 +160,24 @@
             this.lblTitulo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(151, 13);
+            this.lblTitulo.Location = new System.Drawing.Point(151, 8);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(203, 25);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Configurar Conexion";
+            // 
+            // niActualizador
+            // 
+            this.niActualizador.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.niActualizador.Icon = ((System.Drawing.Icon)(resources.GetObject("niActualizador.Icon")));
+            this.niActualizador.Text = "Actualizador de periodos";
+            this.niActualizador.Visible = true;
+            this.niActualizador.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.niActualizador_MouseDoubleClick);
+            // 
+            // timerEjecutar
+            // 
+            this.timerEjecutar.Interval = 60000;
+            this.timerEjecutar.Tick += new System.EventHandler(this.timerEjecutar_Tick);
             // 
             // Frm_Principal
             // 
@@ -179,9 +197,13 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pnltitulo);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_Principal";
             this.Text = "Actualizador de periodos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Frm_Principal_FormClosed);
             this.Load += new System.EventHandler(this.Frm_Principal_Load);
+            this.Shown += new System.EventHandler(this.Frm_Principal_Shown);
+            this.SizeChanged += new System.EventHandler(this.Frm_Principal_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.nudPuerto)).EndInit();
             this.pnltitulo.ResumeLayout(false);
             this.pnltitulo.PerformLayout();
@@ -205,6 +227,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel pnltitulo;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.NotifyIcon niActualizador;
+        private System.Windows.Forms.Timer timerEjecutar;
     }
 }
 

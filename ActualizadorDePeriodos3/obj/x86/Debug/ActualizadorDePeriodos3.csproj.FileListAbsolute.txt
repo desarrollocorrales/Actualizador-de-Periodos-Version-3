@@ -1,0 +1,16 @@
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\ActualizadorDePeriodos3.exe.config
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\ActualizadorDePeriodos3.exe.manifest
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\ActualizadorDePeriodos3.application
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\ActualizadorDePeriodos3.exe
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\ActualizadorDePeriodos3.pdb
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.Frm_Principal.resources
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.Properties.Resources.resources
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.SplashScreen.resources
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.csproj.GenerateResource.Cache
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.exe.manifest
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.application
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.exe
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.pdb
+G:\Github\Actualizador-de-Periodos-Version-3\ActualizadorDePeriodos3\obj\x86\Debug\ActualizadorDePeriodos3.csprojResolveAssemblyReference.cache

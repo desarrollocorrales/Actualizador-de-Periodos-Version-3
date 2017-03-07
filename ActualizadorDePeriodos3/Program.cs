@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace ActualizadorDePeriodos3
@@ -15,7 +13,7 @@ namespace ActualizadorDePeriodos3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Principal());
+            Application.Run(new SplashScreen());
         }
     }
 }
